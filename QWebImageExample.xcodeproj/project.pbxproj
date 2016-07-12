@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABCB4941D34F8DF00ED344B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4931D34F8DF00ED344B /* main.m */; };
+		1ABCB4971D34F8DF00ED344B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4961D34F8DF00ED344B /* AppDelegate.m */; };
+		1ABCB49A1D34F8DF00ED344B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4991D34F8DF00ED344B /* ViewController.m */; };
+		1ABCB49D1D34F8DF00ED344B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABCB49B1D34F8DF00ED344B /* Main.storyboard */; };
+		1ABCB49F1D34F8DF00ED344B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABCB49E1D34F8DF00ED344B /* Assets.xcassets */; };
+		1ABCB4A21D34F8DF00ED344B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABCB4A01D34F8DF00ED344B /* LaunchScreen.storyboard */; };
+		1ABCB4AD1D34F8DF00ED344B /* QWebImageExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4AC1D34F8DF00ED344B /* QWebImageExampleTests.m */; };
+		1ABCB4B81D34F8DF00ED344B /* QWebImageExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4B71D34F8DF00ED344B /* QWebImageExampleUITests.m */; };
+		1ABCB4C81D34FA2900ED344B /* QWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4C71D34FA2900ED344B /* QWebImageOperation.m */; };
+		1ABCB4CB1D34FDFB00ED344B /* QWebImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4CA1D34FDFB00ED344B /* QWebImageTools.m */; };
+		1ABCB4CE1D3500DA00ED344B /* QWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4CD1D3500DA00ED344B /* QWebImageManager.m */; };
+		1ABCB4D11D35019000ED344B /* UIImageView+QWebImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4D01D35019000ED344B /* UIImageView+QWebImageView.m */; };
+		1ABCB4D81D35092D00ED344B /* AppInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4D41D35092D00ED344B /* AppInfoCell.m */; };
+		1ABCB4D91D35092D00ED344B /* AppInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4D61D35092D00ED344B /* AppInfoModel.m */; };
+		1ABCB4DA1D35092D00ED344B /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ABCB4D71D35092D00ED344B /* apps.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ABCB4A91D34F8DF00ED344B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ABCB4871D34F8DF00ED344B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ABCB48E1D34F8DF00ED344B;
+			remoteInfo = QWebImageExample;
+		};
+		1ABCB4B41D34F8DF00ED344B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ABCB4871D34F8DF00ED344B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ABCB48E1D34F8DF00ED344B;
+			remoteInfo = QWebImageExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ABCB48F1D34F8DF00ED344B /* QWebImageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QWebImageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABCB4931D34F8DF00ED344B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ABCB4951D34F8DF00ED344B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1ABCB4961D34F8DF00ED344B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1ABCB4981D34F8DF00ED344B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1ABCB4991D34F8DF00ED344B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1ABCB49C1D34F8DF00ED344B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ABCB49E1D34F8DF00ED344B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ABCB4A11D34F8DF00ED344B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ABCB4A31D34F8DF00ED344B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABCB4A81D34F8DF00ED344B /* QWebImageExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWebImageExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABCB4AC1D34F8DF00ED344B /* QWebImageExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QWebImageExampleTests.m; sourceTree = "<group>"; };
+		1ABCB4AE1D34F8DF00ED344B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABCB4B31D34F8DF00ED344B /* QWebImageExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWebImageExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABCB4B71D34F8DF00ED344B /* QWebImageExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QWebImageExampleUITests.m; sourceTree = "<group>"; };
+		1ABCB4B91D34F8DF00ED344B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABCB4C61D34FA2900ED344B /* QWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QWebImageOperation.h; path = QWebImage/QWebImageOperation.h; sourceTree = "<group>"; };
+		1ABCB4C71D34FA2900ED344B /* QWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QWebImageOperation.m; path = QWebImage/QWebImageOperation.m; sourceTree = "<group>"; };
+		1ABCB4C91D34FDFB00ED344B /* QWebImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QWebImageTools.h; path = QWebImage/QWebImageTools.h; sourceTree = "<group>"; };
+		1ABCB4CA1D34FDFB00ED344B /* QWebImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QWebImageTools.m; path = QWebImage/QWebImageTools.m; sourceTree = "<group>"; };
+		1ABCB4CC1D3500DA00ED344B /* QWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QWebImageManager.h; path = QWebImage/QWebImageManager.h; sourceTree = "<group>"; };
+		1ABCB4CD1D3500DA00ED344B /* QWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QWebImageManager.m; path = QWebImage/QWebImageManager.m; sourceTree = "<group>"; };
+		1ABCB4CF1D35019000ED344B /* UIImageView+QWebImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+QWebImageView.h"; path = "QWebImage/UIImageView+QWebImageView.h"; sourceTree = "<group>"; };
+		1ABCB4D01D35019000ED344B /* UIImageView+QWebImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+QWebImageView.m"; path = "QWebImage/UIImageView+QWebImageView.m"; sourceTree = "<group>"; };
+		1ABCB4D31D35092D00ED344B /* AppInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppInfoCell.h; path = Apps/AppInfoCell.h; sourceTree = "<group>"; };
+		1ABCB4D41D35092D00ED344B /* AppInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppInfoCell.m; path = Apps/AppInfoCell.m; sourceTree = "<group>"; };
+		1ABCB4D51D35092D00ED344B /* AppInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppInfoModel.h; path = Apps/AppInfoModel.h; sourceTree = "<group>"; };
+		1ABCB4D61D35092D00ED344B /* AppInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppInfoModel.m; path = Apps/AppInfoModel.m; sourceTree = "<group>"; };
+		1ABCB4D71D35092D00ED344B /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = apps.plist; path = Apps/apps.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABCB48C1D34F8DF00ED344B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABCB4A51D34F8DF00ED344B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABCB4B01D34F8DF00ED344B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABCB4861D34F8DF00ED344B = {
+			isa = PBXGroup;
+			children = (
+				1ABCB4911D34F8DF00ED344B /* QWebImageExample */,
+				1ABCB4AB1D34F8DF00ED344B /* QWebImageExampleTests */,
+				1ABCB4B61D34F8DF00ED344B /* QWebImageExampleUITests */,
+				1ABCB4901D34F8DF00ED344B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABCB4901D34F8DF00ED344B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABCB48F1D34F8DF00ED344B /* QWebImageExample.app */,
+				1ABCB4A81D34F8DF00ED344B /* QWebImageExampleTests.xctest */,
+				1ABCB4B31D34F8DF00ED344B /* QWebImageExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABCB4911D34F8DF00ED344B /* QWebImageExample */ = {
+			isa = PBXGroup;
+			children = (
+				1ABCB4981D34F8DF00ED344B /* ViewController.h */,
+				1ABCB4991D34F8DF00ED344B /* ViewController.m */,
+				1ABCB4D21D3508E300ED344B /* Apps */,
+				1ABCB4C51D34F97900ED344B /* QWebImage */,
+				1ABCB4921D34F8DF00ED344B /* Supporting Files */,
+			);
+			path = QWebImageExample;
+			sourceTree = "<group>";
+		};
+		1ABCB4921D34F8DF00ED344B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ABCB4931D34F8DF00ED344B /* main.m */,
+				1ABCB4951D34F8DF00ED344B /* AppDelegate.h */,
+				1ABCB4961D34F8DF00ED344B /* AppDelegate.m */,
+				1ABCB49B1D34F8DF00ED344B /* Main.storyboard */,
+				1ABCB4A01D34F8DF00ED344B /* LaunchScreen.storyboard */,
+				1ABCB49E1D34F8DF00ED344B /* Assets.xcassets */,
+				1ABCB4A31D34F8DF00ED344B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ABCB4AB1D34F8DF00ED344B /* QWebImageExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ABCB4AC1D34F8DF00ED344B /* QWebImageExampleTests.m */,
+				1ABCB4AE1D34F8DF00ED344B /* Info.plist */,
+			);
+			path = QWebImageExampleTests;
+			sourceTree = "<group>";
+		};
+		1ABCB4B61D34F8DF00ED344B /* QWebImageExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1ABCB4B71D34F8DF00ED344B /* QWebImageExampleUITests.m */,
+				1ABCB4B91D34F8DF00ED344B /* Info.plist */,
+			);
+			path = QWebImageExampleUITests;
+			sourceTree = "<group>";
+		};
+		1ABCB4C51D34F97900ED344B /* QWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				1ABCB4CF1D35019000ED344B /* UIImageView+QWebImageView.h */,
+				1ABCB4D01D35019000ED344B /* UIImageView+QWebImageView.m */,
+				1ABCB4CC1D3500DA00ED344B /* QWebImageManager.h */,
+				1ABCB4CD1D3500DA00ED344B /* QWebImageManager.m */,
+				1ABCB4C61D34FA2900ED344B /* QWebImageOperation.h */,
+				1ABCB4C71D34FA2900ED344B /* QWebImageOperation.m */,
+				1ABCB4C91D34FDFB00ED344B /* QWebImageTools.h */,
+				1ABCB4CA1D34FDFB00ED344B /* QWebImageTools.m */,
+			);
+			name = QWebImage;
+			sourceTree = "<group>";
+		};
+		1ABCB4D21D3508E300ED344B /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				1ABCB4D31D35092D00ED344B /* AppInfoCell.h */,
+				1ABCB4D41D35092D00ED344B /* AppInfoCell.m */,
+				1ABCB4D51D35092D00ED344B /* AppInfoModel.h */,
+				1ABCB4D61D35092D00ED344B /* AppInfoModel.m */,
+				1ABCB4D71D35092D00ED344B /* apps.plist */,
+			);
+			name = Apps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABCB48E1D34F8DF00ED344B /* QWebImageExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABCB4BC1D34F8DF00ED344B /* Build configuration list for PBXNativeTarget "QWebImageExample" */;
+			buildPhases = (
+				1ABCB48B1D34F8DF00ED344B /* Sources */,
+				1ABCB48C1D34F8DF00ED344B /* Frameworks */,
+				1ABCB48D1D34F8DF00ED344B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QWebImageExample;
+			productName = QWebImageExample;
+			productReference = 1ABCB48F1D34F8DF00ED344B /* QWebImageExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ABCB4A71D34F8DF00ED344B /* QWebImageExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABCB4BF1D34F8DF00ED344B /* Build configuration list for PBXNativeTarget "QWebImageExampleTests" */;
+			buildPhases = (
+				1ABCB4A41D34F8DF00ED344B /* Sources */,
+				1ABCB4A51D34F8DF00ED344B /* Frameworks */,
+				1ABCB4A61D34F8DF00ED344B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ABCB4AA1D34F8DF00ED344B /* PBXTargetDependency */,
+			);
+			name = QWebImageExampleTests;
+			productName = QWebImageExampleTests;
+			productReference = 1ABCB4A81D34F8DF00ED344B /* QWebImageExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1ABCB4B21D34F8DF00ED344B /* QWebImageExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABCB4C21D34F8DF00ED344B /* Build configuration list for PBXNativeTarget "QWebImageExampleUITests" */;
+			buildPhases = (
+				1ABCB4AF1D34F8DF00ED344B /* Sources */,
+				1ABCB4B01D34F8DF00ED344B /* Frameworks */,
+				1ABCB4B11D34F8DF00ED344B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ABCB4B51D34F8DF00ED344B /* PBXTargetDependency */,
+			);
+			name = QWebImageExampleUITests;
+			productName = QWebImageExampleUITests;
+			productReference = 1ABCB4B31D34F8DF00ED344B /* QWebImageExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABCB4871D34F8DF00ED344B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "QianQian-Studio";
+				TargetAttributes = {
+					1ABCB48E1D34F8DF00ED344B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1ABCB4A71D34F8DF00ED344B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1ABCB48E1D34F8DF00ED344B;
+					};
+					1ABCB4B21D34F8DF00ED344B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1ABCB48E1D34F8DF00ED344B;
+					};
+				};
+			};
+			buildConfigurationList = 1ABCB48A1D34F8DF00ED344B /* Build configuration list for PBXProject "QWebImageExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ABCB4861D34F8DF00ED344B;
+			productRefGroup = 1ABCB4901D34F8DF00ED344B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABCB48E1D34F8DF00ED344B /* QWebImageExample */,
+				1ABCB4A71D34F8DF00ED344B /* QWebImageExampleTests */,
+				1ABCB4B21D34F8DF00ED344B /* QWebImageExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABCB48D1D34F8DF00ED344B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABCB4DA1D35092D00ED344B /* apps.plist in Resources */,
+				1ABCB4A21D34F8DF00ED344B /* LaunchScreen.storyboard in Resources */,
+				1ABCB49F1D34F8DF00ED344B /* Assets.xcassets in Resources */,
+				1ABCB49D1D34F8DF00ED344B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABCB4A61D34F8DF00ED344B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABCB4B11D34F8DF00ED344B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABCB48B1D34F8DF00ED344B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABCB4CE1D3500DA00ED344B /* QWebImageManager.m in Sources */,
+				1ABCB49A1D34F8DF00ED344B /* ViewController.m in Sources */,
+				1ABCB4971D34F8DF00ED344B /* AppDelegate.m in Sources */,
+				1ABCB4D11D35019000ED344B /* UIImageView+QWebImageView.m in Sources */,
+				1ABCB4C81D34FA2900ED344B /* QWebImageOperation.m in Sources */,
+				1ABCB4D81D35092D00ED344B /* AppInfoCell.m in Sources */,
+				1ABCB4CB1D34FDFB00ED344B /* QWebImageTools.m in Sources */,
+				1ABCB4941D34F8DF00ED344B /* main.m in Sources */,
+				1ABCB4D91D35092D00ED344B /* AppInfoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABCB4A41D34F8DF00ED344B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABCB4AD1D34F8DF00ED344B /* QWebImageExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABCB4AF1D34F8DF00ED344B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABCB4B81D34F8DF00ED344B /* QWebImageExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ABCB4AA1D34F8DF00ED344B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ABCB48E1D34F8DF00ED344B /* QWebImageExample */;
+			targetProxy = 1ABCB4A91D34F8DF00ED344B /* PBXContainerItemProxy */;
+		};
+		1ABCB4B51D34F8DF00ED344B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ABCB48E1D34F8DF00ED344B /* QWebImageExample */;
+			targetProxy = 1ABCB4B41D34F8DF00ED344B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ABCB49B1D34F8DF00ED344B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABCB49C1D34F8DF00ED344B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ABCB4A01D34F8DF00ED344B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABCB4A11D34F8DF00ED344B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ABCB4BA1D34F8DF00ED344B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ABCB4BB1D34F8DF00ED344B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABCB4BD1D34F8DF00ED344B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QWebImageExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianqianstudio.QWebImageExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1ABCB4BE1D34F8DF00ED344B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QWebImageExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianqianstudio.QWebImageExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1ABCB4C01D34F8DF00ED344B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QWebImageExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianqianstudio.QWebImageExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QWebImageExample.app/QWebImageExample";
+			};
+			name = Debug;
+		};
+		1ABCB4C11D34F8DF00ED344B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QWebImageExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianqianstudio.QWebImageExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QWebImageExample.app/QWebImageExample";
+			};
+			name = Release;
+		};
+		1ABCB4C31D34F8DF00ED344B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QWebImageExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianqianstudio.QWebImageExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QWebImageExample;
+			};
+			name = Debug;
+		};
+		1ABCB4C41D34F8DF00ED344B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QWebImageExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianqianstudio.QWebImageExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QWebImageExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABCB48A1D34F8DF00ED344B /* Build configuration list for PBXProject "QWebImageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABCB4BA1D34F8DF00ED344B /* Debug */,
+				1ABCB4BB1D34F8DF00ED344B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABCB4BC1D34F8DF00ED344B /* Build configuration list for PBXNativeTarget "QWebImageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABCB4BD1D34F8DF00ED344B /* Debug */,
+				1ABCB4BE1D34F8DF00ED344B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1ABCB4BF1D34F8DF00ED344B /* Build configuration list for PBXNativeTarget "QWebImageExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABCB4C01D34F8DF00ED344B /* Debug */,
+				1ABCB4C11D34F8DF00ED344B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1ABCB4C21D34F8DF00ED344B /* Build configuration list for PBXNativeTarget "QWebImageExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABCB4C31D34F8DF00ED344B /* Debug */,
+				1ABCB4C41D34F8DF00ED344B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABCB4871D34F8DF00ED344B /* Project object */;
+}
