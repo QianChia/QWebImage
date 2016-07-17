@@ -1,12 +1,12 @@
 //
-//  UIImageView+QWebImageView.m
+//  QWebImage.m
 //  QWebImage
 //
 //  Created by JHQ0228 on 16/7/12.
 //  Copyright © 2016年 QianQian-Studio. All rights reserved.
 //
 
-#import "UIImageView+QWebImageView.h"
+#import "QWebImage.h"
 #import <objc/runtime.h>
 #import "QWebImageManager.h"
 

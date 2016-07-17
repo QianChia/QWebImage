@@ -10,7 +10,7 @@
 #import "AppInfoCell.h"
 #import "AppInfoModel.h"
 
-#import "UIImageView+QWebImageView.h"
+#import "QWebImage.h"
 
 @interface ViewController ()
 

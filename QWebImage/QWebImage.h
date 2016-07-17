@@ -1,5 +1,5 @@
 //
-//  UIImageView+QWebImageView.h
+//  QWebImage.h
 //  QWebImage
 //
 //  Created by JHQ0228 on 16/7/12.
