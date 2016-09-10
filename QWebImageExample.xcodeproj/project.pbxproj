@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A0C712A1D3BCF3200A71FDA /* QWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C71231D3BCF3200A71FDA /* QWebImageManager.m */; };
-		1A0C712B1D3BCF3200A71FDA /* QWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C71251D3BCF3200A71FDA /* QWebImageOperation.m */; };
-		1A0C712C1D3BCF3200A71FDA /* QWebImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C71271D3BCF3200A71FDA /* QWebImageTools.m */; };
-		1A0C713C1D3BE33C00A71FDA /* QWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C713B1D3BE33C00A71FDA /* QWebImage.m */; };
 		1ABCB4941D34F8DF00ED344B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4931D34F8DF00ED344B /* main.m */; };
 		1ABCB4971D34F8DF00ED344B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4961D34F8DF00ED344B /* AppDelegate.m */; };
 		1ABCB49A1D34F8DF00ED344B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4991D34F8DF00ED344B /* ViewController.m */; };
@@ -22,6 +18,10 @@
 		1ABCB4D81D35092D00ED344B /* AppInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4D41D35092D00ED344B /* AppInfoCell.m */; };
 		1ABCB4D91D35092D00ED344B /* AppInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCB4D61D35092D00ED344B /* AppInfoModel.m */; };
 		1ABCB4DA1D35092D00ED344B /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ABCB4D71D35092D00ED344B /* apps.plist */; };
+		1ADA075F1D83FFA500D1C27A /* QWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA07581D83FFA500D1C27A /* QWebImage.m */; };
+		1ADA07601D83FFA500D1C27A /* QWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA075A1D83FFA500D1C27A /* QWebImageManager.m */; };
+		1ADA07611D83FFA500D1C27A /* QWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA075C1D83FFA500D1C27A /* QWebImageOperation.m */; };
+		1ADA07621D83FFA500D1C27A /* QWebImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA075E1D83FFA500D1C27A /* QWebImageTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,14 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A0C71221D3BCF3200A71FDA /* QWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWebImageManager.h; sourceTree = "<group>"; };
-		1A0C71231D3BCF3200A71FDA /* QWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWebImageManager.m; sourceTree = "<group>"; };
-		1A0C71241D3BCF3200A71FDA /* QWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWebImageOperation.h; sourceTree = "<group>"; };
-		1A0C71251D3BCF3200A71FDA /* QWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWebImageOperation.m; sourceTree = "<group>"; };
-		1A0C71261D3BCF3200A71FDA /* QWebImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWebImageTools.h; sourceTree = "<group>"; };
-		1A0C71271D3BCF3200A71FDA /* QWebImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWebImageTools.m; sourceTree = "<group>"; };
-		1A0C713A1D3BE33C00A71FDA /* QWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWebImage.h; sourceTree = "<group>"; };
-		1A0C713B1D3BE33C00A71FDA /* QWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWebImage.m; sourceTree = "<group>"; };
 		1ABCB48F1D34F8DF00ED344B /* QWebImageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QWebImageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABCB4931D34F8DF00ED344B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1ABCB4951D34F8DF00ED344B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +63,14 @@
 		1ABCB4D51D35092D00ED344B /* AppInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppInfoModel.h; path = Apps/AppInfoModel.h; sourceTree = "<group>"; };
 		1ABCB4D61D35092D00ED344B /* AppInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppInfoModel.m; path = Apps/AppInfoModel.m; sourceTree = "<group>"; };
 		1ABCB4D71D35092D00ED344B /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = apps.plist; path = Apps/apps.plist; sourceTree = "<group>"; };
+		1ADA07571D83FFA500D1C27A /* QWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWebImage.h; sourceTree = "<group>"; };
+		1ADA07581D83FFA500D1C27A /* QWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWebImage.m; sourceTree = "<group>"; };
+		1ADA07591D83FFA500D1C27A /* QWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWebImageManager.h; sourceTree = "<group>"; };
+		1ADA075A1D83FFA500D1C27A /* QWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWebImageManager.m; sourceTree = "<group>"; };
+		1ADA075B1D83FFA500D1C27A /* QWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWebImageOperation.h; sourceTree = "<group>"; };
+		1ADA075C1D83FFA500D1C27A /* QWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWebImageOperation.m; sourceTree = "<group>"; };
+		1ADA075D1D83FFA500D1C27A /* QWebImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWebImageTools.h; sourceTree = "<group>"; };
+		1ADA075E1D83FFA500D1C27A /* QWebImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWebImageTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 				1ABCB4981D34F8DF00ED344B /* ViewController.h */,
 				1ABCB4991D34F8DF00ED344B /* ViewController.m */,
 				1ABCB4D21D3508E300ED344B /* Apps */,
-				1ABCB4C51D34F97900ED344B /* QWebImage */,
+				1ADA07561D83FFA500D1C27A /* QWebImage */,
 				1ABCB4921D34F8DF00ED344B /* Supporting Files */,
 			);
 			path = QWebImageExample;
@@ -162,21 +162,6 @@
 			path = QWebImageExampleUITests;
 			sourceTree = "<group>";
 		};
-		1ABCB4C51D34F97900ED344B /* QWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				1A0C713A1D3BE33C00A71FDA /* QWebImage.h */,
-				1A0C713B1D3BE33C00A71FDA /* QWebImage.m */,
-				1A0C71221D3BCF3200A71FDA /* QWebImageManager.h */,
-				1A0C71231D3BCF3200A71FDA /* QWebImageManager.m */,
-				1A0C71241D3BCF3200A71FDA /* QWebImageOperation.h */,
-				1A0C71251D3BCF3200A71FDA /* QWebImageOperation.m */,
-				1A0C71261D3BCF3200A71FDA /* QWebImageTools.h */,
-				1A0C71271D3BCF3200A71FDA /* QWebImageTools.m */,
-			);
-			name = QWebImage;
-			sourceTree = "<group>";
-		};
 		1ABCB4D21D3508E300ED344B /* Apps */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +173,21 @@
 			);
 			name = Apps;
 			sourceTree = "<group>";
+		};
+		1ADA07561D83FFA500D1C27A /* QWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				1ADA07571D83FFA500D1C27A /* QWebImage.h */,
+				1ADA07581D83FFA500D1C27A /* QWebImage.m */,
+				1ADA07591D83FFA500D1C27A /* QWebImageManager.h */,
+				1ADA075A1D83FFA500D1C27A /* QWebImageManager.m */,
+				1ADA075B1D83FFA500D1C27A /* QWebImageOperation.h */,
+				1ADA075C1D83FFA500D1C27A /* QWebImageOperation.m */,
+				1ADA075D1D83FFA500D1C27A /* QWebImageTools.h */,
+				1ADA075E1D83FFA500D1C27A /* QWebImageTools.m */,
+			);
+			path = QWebImage;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -320,14 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0C712A1D3BCF3200A71FDA /* QWebImageManager.m in Sources */,
-				1A0C712B1D3BCF3200A71FDA /* QWebImageOperation.m in Sources */,
-				1A0C713C1D3BE33C00A71FDA /* QWebImage.m in Sources */,
 				1ABCB49A1D34F8DF00ED344B /* ViewController.m in Sources */,
 				1ABCB4971D34F8DF00ED344B /* AppDelegate.m in Sources */,
+				1ADA07611D83FFA500D1C27A /* QWebImageOperation.m in Sources */,
+				1ADA075F1D83FFA500D1C27A /* QWebImage.m in Sources */,
 				1ABCB4D81D35092D00ED344B /* AppInfoCell.m in Sources */,
 				1ABCB4941D34F8DF00ED344B /* main.m in Sources */,
-				1A0C712C1D3BCF3200A71FDA /* QWebImageTools.m in Sources */,
+				1ADA07621D83FFA500D1C27A /* QWebImageTools.m in Sources */,
+				1ADA07601D83FFA500D1C27A /* QWebImageManager.m in Sources */,
 				1ABCB4D91D35092D00ED344B /* AppInfoModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
